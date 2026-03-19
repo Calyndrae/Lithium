@@ -2,11 +2,6 @@
   "manifest_version": 3,
   "name": "Lithium",
   "version": "1.0",
-  "description": "Ruthlessly de-renders and suspends inactive background tabs to free up RAM and CPU.",
-  "permissions": [
-    "tabs",
-    "alarms"
-  ],
   "background": {
     "service_worker": "background.js"
   }
